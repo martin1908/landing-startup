@@ -1,6 +1,9 @@
 /* Menu */
 .menu{
     background-color: #183350;
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
@@ -63,8 +66,11 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
+.spr-container{
+    padding: 40px 1px 9px 1px;
+}
 .border{
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #707070 !important;
 }
 .seccion-3 .stc-3-1-1{
     margin-top: 200px;
@@ -91,7 +97,8 @@
     box-shadow: 1px 2px 6px 0px #00000045
 }
 .stc-3-2{
-    box-shadow: 1px 1px red;
+    box-shadow: 1px 1px 5px 0px #00000045;
+    background: #FFFFFF;
 }
 .stc-3-2-3 p{
     color: #183350;
@@ -114,6 +121,7 @@
     font-size: 17px;
     font-family: 'Roboto';
     font-weight: 500;
+    margin-top: 13px;
 }
 .stc-3-2-2-2{
     background: #8790A3;
@@ -122,9 +130,10 @@
     font-family: 'Roboto';
     font-weight: 500;
     text-align: center;
+    margin-top: 13px;
 }
 .stc-3-2-3{
-    margin: auto;
+    margin-top: 13px;
 }
 .circle{
     width: 22px;
@@ -153,4 +162,80 @@
 }
 .referidos span{
     color: #2699FB;
+}
+/* .rotar h4 {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+} */
+.rotar h4{
+    color: #183350;
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.numbers h4{
+    color: #183350;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.numbers p{
+    color: #183350;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.sm-1{
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.sm-2{
+    border-bottom: 1px solid;
+}
+.sm-3{
+    border-right: 1px solid;
+}
+.sm-1 h4,.sm-2 h4,.sm-3 h4,.sm-4 h4{
+    color: #183350;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 600;
+
+}
+.sm-1 p,.sm-2 p,.sm-3 p,.sm-4 p{
+    color: #183350;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+}
+.sm-1 p,.sm-2 p,.sm-4 p{
+    line-height: 8px;
+
+}
+.ctn-numbers{
+    margin-top: 50px;
+}
+.row-numbers{
+    border-bottom: 1px solid #183350;
+    padding: 1px 1px 30px 1px;
+}
+.conclu h4{
+    color: #183350;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 600;
+
+}
+.conclu p{
+    color: #8790A3;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+
 }
