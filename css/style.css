@@ -1,0 +1,156 @@
+/* Menu */
+.menu{
+    background-color: #183350;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 1px 25px 1px 25px;
+}
+.logo{
+    text-align: center;
+}
+.links{
+    justify-content:center;
+}
+/* Seccion 1 */
+.seccion-1{
+    background-image: url("/imagen/02@3x.png"); /* The image used */
+    height: 535px; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.seccion-1 h4{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+}
+.seccion-1 p{
+    color: #2DEEB6;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: center;
+}
+.seccion-1 .stc-1-1{
+    padding: 80px 1px 80px 0px;
+}
+/* Seccion 2 */
+.seccion-2 .img-atras{
+    background-image: url("/imagen/Imagen 2.png"); /* The image used */
+    height:306px; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    left: 0;
+    top: 26em;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+}
+/* Seccion 3 */
+.seccion-3{
+    background-image: url("/imagen/Bg.png"); /* The image used */
+    height: 535px; /* You must set a specified height */
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.border{
+    border-bottom: 1px solid #707070;
+}
+.seccion-3 .stc-3-1-1{
+    margin-top: 200px;
+}
+.seccion-3 .stc-3-1-1 h4{
+    color: #183350;
+    font-size: 38px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.seccion-3 .stc-3-1-2{
+    margin-top: 210px;
+    text-align: right;
+}
+.seccion-3 .stc-3-1-2 a{
+    color: #183350;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    background: #2DEEB6;
+    padding: 13px 33px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 2px 6px 0px #00000045
+}
+.stc-3-2{
+    box-shadow: 1px 1px red;
+}
+.stc-3-2-3 p{
+    color: #183350;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.stc-3-2-2{
+    margin: auto;
+}
+.stc-3-2-2 h4{
+    color: #183350;
+    font-size: 38px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.stc-3-2-2-1{
+    background: #183350;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.stc-3-2-2-2{
+    background: #8790A3;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-align: center;
+}
+.stc-3-2-3{
+    margin: auto;
+}
+.circle{
+    width: 22px;
+    height: 22px;
+    background: #2DEEB6;
+    border-radius: 100%;
+    margin-top: 6px;
+}
+.plata p{
+    color: #183350;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.link a{
+    color: #2699FB;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.referidos p{
+    color: #8790A3;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.referidos span{
+    color: #2699FB;
+}
