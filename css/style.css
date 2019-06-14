@@ -25,7 +25,7 @@
 }
 /* Seccion 1 */
 .seccion-1{
-    background-image: url("/imagen/02@3x.png"); /* The image used */
+    background-image: url("../imagen/02@3x.png"); /* The image used */
     height: 535px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
@@ -51,7 +51,7 @@
 }
 /* Seccion 2 */
 .seccion-2 .img-atras{
-    background-image: url("/imagen/Imagen 2.png"); /* The image used */
+    background-image: url("../imagen/Imagen 2.png"); /* The image used */
     height:306px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
@@ -65,7 +65,7 @@
 }
 /* Seccion 3 */
 .seccion-3{
-    background-image: url("/imagen/Bg.png"); /* The image used */
+    background-image: url("../imagen/Bg.png"); /* The image used */
     height: 535px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
@@ -667,7 +667,7 @@
     }
     /* Seccion 1 */
 .seccion-1{
-    background-image: url("/imagen/02@3x.png"); /* The image used */
+    background-image: url("../imagen/02@3x.png"); /* The image used */
     height: 535px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
@@ -693,7 +693,7 @@
 }
 /* Seccion 2 */
 .seccion-2 .img-atras{
-    background-image: url("/imagen/Imagen 2.png"); /* The image used */
+    background-image: url("../imagen/Imagen 2.png"); /* The image used */
     height:306px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
@@ -707,7 +707,7 @@
 }
 /* Seccion 3 */
 .seccion-3{
-    background-image: url("/imagen/Bg.png"); /* The image used */
+    background-image: url("../imagen/Bg.png"); /* The image used */
     height: 535px; /* You must set a specified height */
     width: 100%;
     background-position: center; /* Center the image */
