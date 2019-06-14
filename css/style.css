@@ -11,6 +11,12 @@
     font-size: 20px;
     padding: 1px 25px 1px 25px;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2DEEB6 !important;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 1px 25px 1px 25px;
+}
 .logo{
     text-align: center;
 }
